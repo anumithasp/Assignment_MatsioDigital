@@ -22,6 +22,7 @@
 {
     justify-content: end;
     align-items: end;
+    display: flex;
 
 
 }
@@ -32,7 +33,7 @@
     color: white;
     text-decoration: none;
     padding-right: 5px;
-    border-right: 1px solid white;
+    
     
     
     
@@ -76,6 +77,7 @@
 {
     justify-content: end;
     align-items: end;
+    display: flex;
 
 
 }
@@ -84,11 +86,17 @@
 
 /* section*/
 
+
+/*backgroung image*/
 .grid-container3 {
     display: grid;
     grid-template-columns: auto auto ;
     padding: 1rem;
     background-image: url('bgimage.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    height: 100vh;
     
 
 }
@@ -96,7 +104,7 @@
 {
     justify-content: start;
     align-items: center;
-    padding-top: 4rem;
+    padding-top: 14rem;
     padding-left: 2rem;
     
 
@@ -131,6 +139,7 @@
 h1{
     font-family:Arial, Helvetica, sans-serif;
     color: #ffffff;
+    font-size: 3rem;
 }
 
 h6{
@@ -159,6 +168,11 @@ form {
     padding-left: 5px;
     padding-bottom: 3px;
     
+}
+
+.formitems h3
+{
+    text-align: center;
 }
 
 
@@ -194,7 +208,7 @@ input[type="number"] {
 
 #submit
 {
-    font-size: 1rem;
+    font-size: 0.5rem;
     background-color:#0f2435;
     color: #ffffff;
     border-radius: 100px 100px 100px 100px;
@@ -259,3 +273,16 @@ input[type="number"] {
   border-radius: 100px 100px 100px 100px; 
   border-width: 1rem;
 }
+
+@media (max-width: 629px) {
+    h1{
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 999px) {
+    form{
+        width: 75%;
+    }
+}
+
