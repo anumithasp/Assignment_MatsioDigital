@@ -7,19 +7,19 @@
 
 .grid-container1 {
     display: grid;
-    grid-template-columns: auto auto ;
+    grid-template-columns: auto auto;
     padding: 1rem;
 
 }
-.grid-item1
-{
+
+.grid-item1 {
     justify-content: end;
     align-items: end;
 
 
 }
-.grid-item2
-{
+
+.grid-item2 {
     justify-content: end;
     align-items: end;
     display: flex;
@@ -27,28 +27,25 @@
 
 }
 
-.list1
-{
+.list1 {
     display: inline-block;
     color: white;
     text-decoration: none;
     padding-right: 5px;
-    
-    
-    
-    
 
-   
+
+
+
+
+
 }
 
-.fas
-{
+.fas {
     color: #40A5A2;
-    
+
 }
 
-.fab
-{
+.fab {
     color: white;
     padding-right: 1rem;
 }
@@ -62,19 +59,19 @@
 
 .grid-container2 {
     display: grid;
-    grid-template-columns: auto auto ;
+    grid-template-columns: auto auto;
     padding: 1rem;
 
 }
-.grid-item2a
-{
+
+.grid-item2a {
     justify-content: start;
     align-items: start;
 
 
 }
-.grid-item2b
-{
+
+.grid-item2b {
     justify-content: end;
     align-items: end;
     display: flex;
@@ -90,33 +87,33 @@
 /*backgroung image*/
 .grid-container3 {
     display: grid;
-    grid-template-columns: auto auto ;
+    grid-template-columns: auto auto;
     padding: 1rem;
     background-image: url('bgimage.jpg');
-    background-size: cover; 
-    background-position: center; 
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
-    
+
 
 }
-.grid-item3a
-{
+
+.grid-item3a {
     justify-content: start;
     align-items: center;
     padding-top: 14rem;
     padding-left: 2rem;
-    
+
 
 
 
 }
-.grid-item3b
-{
+
+.grid-item3b {
     justify-content: center;
     align-items: center;
     display: flex;
-    
+
 
 }
 
@@ -126,38 +123,37 @@
     left: 0;
     width: 100%;
     height: 100%;
-    
+
     background-attachment: fixed;
     background-size: cover;
-   
+
 }
 
 
 
 /*Form and text*/
 
-h1{
-    font-family:Arial, Helvetica, sans-serif;
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
     color: #ffffff;
     font-size: 3rem;
 }
 
-h6{
-   
-    font-family:Arial, Helvetica, sans-serif;
+h6 {
+
+    font-family: Arial, Helvetica, sans-serif;
     color: #ffffff;
     font-size: large;
 }
 
-#getstarted
-{
+#getstarted {
     background-color: #40A5A2;
     color: #ffffff;
     border-radius: 100px 100px 100px 100px;
     font-size: 1rem;
     padding: 1rem;
-    
-    
+
+
 }
 
 /*form styles*/
@@ -168,11 +164,10 @@ form {
     width: 40%;
     padding-left: 5px;
     padding-bottom: 3px;
-    
+
 }
 
-.formitems h3
-{
+.formitems h3 {
     text-align: center;
 }
 
@@ -182,7 +177,7 @@ form {
 #email,
 #ppsnumber,
 #agree {
-    
+
     border-radius: 100px 100px 100px 100px;
 
 }
@@ -200,24 +195,23 @@ input[type="email"],
 input[type="number"] {
     width: 100%;
     height: 20px;
-    max-width:89%;
+    max-width: 89%;
     padding: 5px;
-    
-    
+
+
     font-size: 1rem;
 }
 
-#submit
-{
+#submit {
     font-size: 1rem;
-    background-color:#0f2435;
+    background-color: #0f2435;
     color: #ffffff;
     border-radius: 100px 100px 100px 100px;
     padding: 8px;
-    
+
 }
-#arrow
-{
+
+#arrow {
     color: #f8f9fa;
 }
 
@@ -229,20 +223,12 @@ input[type="number"] {
     display: grid;
     grid-template-columns: auto auto auto;
     padding: 1rem;
-    
-    
 
-}
-.grid-item4a
-{
-    justify-content: end;
-    align-items: end;
-    padding: 2rem;
 
 
 }
-.grid-item4b
-{
+
+.grid-item4a {
     justify-content: end;
     align-items: end;
     padding: 2rem;
@@ -250,8 +236,15 @@ input[type="number"] {
 
 }
 
-.grid-item4c
-{
+.grid-item4b {
+    justify-content: end;
+    align-items: end;
+    padding: 2rem;
+
+
+}
+
+.grid-item4c {
     justify-content: end;
     align-items: end;
     padding: 2rem;
@@ -262,26 +255,71 @@ input[type="number"] {
 /*footer grid images*/
 
 
-#startup,#acc,#risk
-{
-  
-  color: #fff9f9;
-  background-color:#40A5A2;
-  height: 2rem;
-  border: 0px solid #40A5A2;
-  border-radius: 100px 100px 100px 100px; 
-  border-width: 1rem;
+#startup,
+#acc,
+#risk {
+
+    color: #fff9f9;
+    background-color: #40A5A2;
+    height: 2rem;
+    border: 0px solid #40A5A2;
+    border-radius: 100px 100px 100px 100px;
+    border-width: 1rem;
 }
 
 @media (max-width: 629px) {
-    h1{
+    h1 {
         font-size: 2rem;
     }
 }
 
 @media (max-width: 999px) {
-    form{
+    form {
         width: 75%;
     }
 }
 
+@media (max-width: 380px) {
+
+    form {
+        width: 100%;
+        padding: 10px;
+
+    }
+
+    .grid-item3a {
+        
+        padding-top: 0px;
+        padding-left: 2rem;
+
+    }
+
+
+}
+
+@media (max-width: 420px) {
+
+    form {
+        width: 100%;
+        padding: 10px;
+
+    }
+}
+
+@media (max-width: 743px) {
+
+    .grid-container2 {
+        
+        padding: 5px;
+    
+    }
+    
+    
+    .grid-item2b {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    
+    
+    }
+}
